@@ -11,4 +11,4 @@ with open("input/day1.txt", "r") as f:
     for inventory in elf_inventories:
         items = list(map(int, inventory.split('\n')))
         summed_inventories.append(sum(items))
-print(max(summed_inventories)) # 69795 highest_calories held by an elf
+print(max(summed_inventories)) # 69795 highest calories held by an elf

@@ -83,4 +83,3 @@ with open("input/day2.txt", "r") as f:
         selected_gesture = select_gesture(opponent_gesture, suggested_outcome)
         points += rock_paper_scissors(opponent_gesture, selected_gesture)
 print(points) # 15442 points
-

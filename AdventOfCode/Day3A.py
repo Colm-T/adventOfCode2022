@@ -26,4 +26,3 @@ with open("input/day3.txt", "r") as f:
         summed_item_priorities += compare_compartments(first_compartment, second_compartment)
 
 print(summed_item_priorities) # 8176
-

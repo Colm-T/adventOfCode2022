@@ -19,6 +19,3 @@ with open("input/day4.txt", "r") as f:
         elif assignment_one[0] >= assignment_two[0] and assignment_one[1] <= assignment_two[1]: # assignment_one is inside assignment_two
             redundant_assignments += 1
 print(redundant_assignments) # 503
-
-
-
