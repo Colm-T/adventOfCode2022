@@ -5,14 +5,10 @@
 # Part A is find the elf carrying the most calories and how many total calories is that elf carrying?
 
 with open("input/day1.txt", "r") as f:
-    highest_calories = 0
-    caloric_sum = 0
-    for line in f.readlines():
-        current_food = line.strip()
-        if current_food:
-            caloric_sum += int(current_food)
-        else:
-            if highest_calories < caloric_sum:
-                highest_calories = caloric_sum
-            caloric_sum = 0
-print(highest_calories) # 69795 highest_calories held by an elf
+    text_file = f.read()
+    elf_inventories = text_file.split('\n\n')
+    summed_inventories = []
+    for inventory in elf_inventories:
+        items = list(map(int, inventory.split('\n')))
+        summed_inventories.append(sum(items))
+print(max(summed_inventories)) # 69795 highest_calories held by an elf
