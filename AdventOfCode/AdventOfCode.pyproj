@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5ae5aa8f-40c5-459c-8fc4-e49397ec1d32</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Day4B.py</StartupFile>
+    <StartupFile>Day5B.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -32,6 +32,8 @@
     <Compile Include="Day3B.py" />
     <Compile Include="Day4A.py" />
     <Compile Include="Day4B.py" />
+    <Compile Include="Day5A.py" />
+    <Compile Include="Day5B.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Input\" />
@@ -41,6 +43,7 @@
     <Content Include="Input\Day2.txt" />
     <Content Include="Input\Day3.txt" />
     <Content Include="Input\Day4.txt" />
+    <Content Include="Input\Day5.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
