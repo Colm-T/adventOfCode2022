@@ -50,4 +50,4 @@ with open("input/day5.txt", "r") as f:
     top_crates = ""
     for i in range(1, len(stack_map)+1):
         top_crates += stack_map[i].pop()
-    print(top_crates)
+    print(top_crates) # QNDWLMGNS

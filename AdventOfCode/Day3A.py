@@ -1,3 +1,4 @@
+# https://adventofcode.com/2022/day/3
 # Day 3 is about loading rucksacks with supplies, each rucksack has two large compartments,
 # The input is a text file with each line being a string corresponding to a rucksack, 
 # with the first half of the string being the first compartment and second half being the second compartment,

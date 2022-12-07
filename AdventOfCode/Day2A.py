@@ -1,3 +1,4 @@
+# https://adventofcode.com/2022/day/2
 # The elves are having a rock paper scissors contest and you have been given a encrypted strategy guide (the input) for your help with the rations
 # the first value of each line is the opponents planned move, second is the move the guide suggests,
 # you get points for which gesture you choose [1 - rock, 2 - paper, 3 - scissors] and the outcome of each bout [0 - loss, 3 - tie, 6 - win]
